@@ -2,7 +2,7 @@
   "name": "lwchub",
   "version": "1.0.0",
   "description": "lwc hub app",
-  "main": "index.js",
+  "main": "scripts/app.js",
   "scripts": {
     "postinstall": "build.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "openssl": "^1.1.0",
-    "sfdx-cli": "^7.28.7"
+    "sfdx-cli": "^7.28.7",
+    "express":"^4.17.1"
   }
 }
