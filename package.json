@@ -4,7 +4,7 @@
   "description": "lwc hub app",
   "main": "scripts/app.js",
   "scripts": {
-    "heroku-postbuild": "build.sh",
+    "postinstall": "build.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
