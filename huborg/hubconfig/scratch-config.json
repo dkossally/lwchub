@@ -1,0 +1,25 @@
+{
+    "orgName": "LWCSCRATCH",
+    "edition": "Enterprise",
+    "features": [
+        "Communities",
+        "ServiceCloud"
+    ],
+    "settings": {
+        "communitiesSettings": {
+            "enableNetworksEnabled": true
+        },
+        "lightningExperienceSettings": {
+            "enableS1DesktopEnabled": true
+        },
+        "mobileSettings": {
+            "enableS1EncryptedStoragePref2": true
+        },
+        "omniChannelSettings": {
+            "enableOmniChannel": true
+        },
+        "caseSettings": {
+            "systemUserEmail": "support@lwc.com"
+        }
+    }
+}

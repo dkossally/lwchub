@@ -4,8 +4,13 @@
   "description": "lwc hub app",
   "main": "index.js",
   "scripts": {
+    "postinstall": "build.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "openssl": "^1.1.0",
+    "sfdx-cli": "^7.28.7"
+  }
 }
