@@ -18,4 +18,6 @@ sfdx force:org:create -s -f ../hubconfig/scratch-config.json -a "LWC"
 
 sfdx force:source:push
 
+$ echo starting lwc dev server
+
 sfdx force:lightning:lwc:start
