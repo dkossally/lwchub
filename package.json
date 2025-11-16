@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "openssl": "^1.1.0",
-    "sfdx-cli": "^7.28.7",
+    "sfdx-cli": "^7.209.6",
     "express":"^4.17.1"
   }
 }
